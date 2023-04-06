@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 
 // Components
-import Card from "./Card";
-import Modal from "./Modal";
+import Card from "../components/Card";
+import Modal from "../components/Modal";
 
 import { data } from "../data/pokemon";
 import { Howl } from "howler";

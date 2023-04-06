@@ -9,7 +9,7 @@ const Card = ({ card, handleCard }) => {
       } justify-center cursor-pointer h-20 w-20 hover:scale-105 rounded-xl`}
       onClick={() => handleCard(card.id)}
     >
-      <div>
+      <div className="">
         {card.flipped ? (
           <img
             src={card.image}
@@ -23,7 +23,7 @@ const Card = ({ card, handleCard }) => {
           <img
             src={ImagePokeball}
             alt={card.id}
-            className={`h-16 w-16 scale-110 animate-spin ${
+            className={`h-16 w-16 scale-110 hover:animate-spin  ${
               card.flipped &&
               "[transform: rotateY(180deg)] [backface-visibility:hidden] transition-all duration-1000 "
             }`}

@@ -30,7 +30,7 @@ const MenuPage = () => {
     }
   };
   return (
-    <div className="fixed top-0 left-0 right-0 bottom-0 flex justify-center items-center gap-16">
+    <div className="fixed top-0 left-0 right-0 bottom-0 flex justify-center items-center flex-col md:flex-row gap-16">
       <img
         src={fondo2}
         alt="fondo-poke"

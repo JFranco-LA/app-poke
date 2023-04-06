@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import Board from "./components/Board";
+import HardLevel from "./pages/HardLevel";
 import MenuPage from "./pages/MenuPage";
 import StarPage from "./pages/StarPage";
 function App() {
@@ -8,7 +8,7 @@ function App() {
       <Routes>
         <Route path="/" element={<StarPage />} />
         <Route path="/home" element={<MenuPage />} />
-        <Route path="/gameHard" element={<Board />} />
+        <Route path="/game/hard" element={<HardLevel />} />
       </Routes>
     </div>
   );
