@@ -1,4 +1,4 @@
-import ImagePokeball from "../assets/pokeball.png";
+import ImagePokeball from "../assets/images/pokeball.png";
 const Card = ({ card, handleCard }) => {
   console.log(card.bgColor);
 
@@ -23,7 +23,7 @@ const Card = ({ card, handleCard }) => {
           <img
             src={ImagePokeball}
             alt={card.id}
-            className={`h-16 w-16 scale-110 ${
+            className={`h-16 w-16 scale-110 animate-spin ${
               card.flipped &&
               "[transform: rotateY(180deg)] [backface-visibility:hidden] transition-all duration-1000 "
             }`}

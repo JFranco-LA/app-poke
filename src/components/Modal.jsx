@@ -1,4 +1,4 @@
-import pokeball from "../assets/poke.svg";
+import pokeball from "../assets/images/poke.svg";
 
 const Modal = ({ gameOver, setGameOver, moves, handleNewGame }) => {
   return (
